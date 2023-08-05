@@ -1,0 +1,379 @@
+.banner {
+    background-image: url("./images/banner.png");
+    background-size: cover;
+    background-position: center;
+    height: 700px; /* Adjust the height as needed */
+    display: flex;
+  }
+
+  /* Style the left content */
+  .left-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px;
+    color: white;
+    font-size: 24px;
+  }
+
+  /* Style the right content */
+  .right-content {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+  .button{
+  background: #012A4A;
+  color: white;
+  padding: 15px;
+  border-radius: 30px 0 30px 0px;
+  margin-top: 20px;
+  }
+  .order-button{
+ background: #F0E615;
+  color: black;
+  padding: 15px;
+  border-radius: 30px 0 30px 0px;
+  margin-top: 30px;
+  font-size: medium;
+  margin-bottom: 20px;
+  }
+  .title{
+      color: #085794;
+  }
+  .span-tag{
+      font-size: 15px;
+      margin-right: 10px;    
+  }
+  .order-text{
+      color: #012A4A;
+      font-size: 18px;
+  }
+  .frame-image{
+      height: 400px;
+      margin-top: 140px;
+      position: relative;
+  }
+  .blue-jeans{
+      height: 300px;
+    
+  }
+  /* ... other styles ... */
+.middle-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.blue-jeans {
+  height: 300px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blue-jeans {
+  height: 300px;
+  margin-top: 340px;
+  margin-left: 315px;
+}
+.contact-content img{
+  height: 100px;
+}
+
+.product-details-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.details-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-section {
+    width: 50%;
+}
+
+.image-section img {
+    height: 500px;
+    position: absolute;
+    margin-top: -140px;
+    margin-left: -90px;
+    z-index: 2;
+
+}
+
+.ul-design {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.right-prodect-details {}
+
+.bg-image {
+    background-image: url("images/Rectangle.png");
+    position: relative;
+    height: 650px;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.product-details {
+    margin-top: 90px;
+}
+
+.jeans-size {
+    height: 90px;
+    position: relative;
+    margin-top: 60px;
+    margin-right: -350px;
+}
+
+.product-title h1 {
+    margin-top: 160px;
+    font-size: 100px;
+}
+.product-title p{
+    font-size: 20px;
+    color: white;
+}
+
+.product-title-button {
+        background: #F0E615;
+        color: black;
+        padding: 15px;
+        border-radius: 30px 0 30px 0px;
+        margin-top: 0px;
+        font-size: medium;
+        margin-bottom: 20px;
+}
+
+.img-group {
+    background: #F0F9FF;
+    margin: auto;
+
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.single-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-btn img {
+    height: 170px;
+    width: 170px;
+}
+
+.single-btn button {
+    width: 70%;
+    font-size: 8px;
+}
+
+.harijental {
+    border: 1px dotted #77b8e4;
+}
+
+.jeans-quality {
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    padding-bottom: 50px;
+}
+
+.mask-group {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    margin: auto;
+    position: relative;
+}
+.icons{
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 45%;
+}
+.instructions-section {
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    padding-bottom: 50px;
+}
+
+.instructions-section p {
+    width: 400px;
+    margin: auto;
+    border: 1px seagreen solid;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+
+
+.delevery-image img {
+    height: 450px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.mask-group-title {
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 40%;
+}
+.mask-group-title h4{
+    font-size: 28px;
+    color: white;
+    margin: 0px;
+}
+
+.images-group{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+  
+    
+}
+.images-group img{
+    height: 280px;
+    width: 280px;
+}
+
+.group-bgcolor{
+    background: #F0F9FF;
+    position: relative;
+}
+.arrow{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+}
+.right{
+    border: 1px #8dd1ff solid;
+    border-radius: 50%;
+    background-color: #57595a;
+    padding: 10px;
+}
+.left{
+    border: 1px #8dd1ff solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+.submit-section{
+    background-image: url("images/Rectangle\ 4479.png");
+   }
+   .submit-section h1{
+    padding: 40px;
+    color: white;
+    text-align: center;
+   }
+   .submit-order{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+   }
+   .submit-order input{
+    background-color: rgb(149, 199, 243);
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 7px;
+   }
+   .left-side{
+    margin: 50px;
+   }
+   .left-side img{
+    margin-top: 30px;
+    height: 150px;
+    width: 85%;
+   }
+   .rightside{
+    margin-top: 50px;
+   }
+   .links-section{
+    background-image: url("images/Rectanglepic.png");
+   }
+   .contact-section{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 50px;
+   }
+   .text{
+    color: #F0E615;
+   }
+   .phn-number{
+    font-size: 28px;
+    color: white;
+   }
+   .link-text{
+    font-weight: bold;
+   }
+   .footer-section{
+    background-image: url("images/footer-img.png");
+    position: relative;
+    padding: 20px;
+}
+.footer-section::before{
+    background: linear-gradient(0deg, #003B60 21.93%, rgba(0, 59, 96, 0) 107.27%);
+}
+
+.footer-icons {
+    margin-top: 102px;
+    margin-left: 40%;
+}
+.footer-icons img{
+    height: 20px;
+    width: 140px;
+}
+.footer-icons p{
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.funnel {
+    color: #FFE663;
+}
